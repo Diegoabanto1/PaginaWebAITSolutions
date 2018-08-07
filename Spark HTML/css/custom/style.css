@@ -109,7 +109,8 @@ body {
 	font-family: 'proxima_nova_rgregular';
 	font-size: 15px;
 	line-height: 20px;
-	color: #738191
+	color: #738191;
+    background-color:azure
 }
 
 .floatleft {
@@ -3968,7 +3969,7 @@ header a.cart .count,
 .domainCta .Btn.ctaBtn,
 .cartOpt > li:hover,
 .checkTitle {
-	background: #233141;
+	background: blue;
 	color: #fff;
 }
 
@@ -4111,7 +4112,7 @@ header .topInfo li.clientAreaLi span:hover,
 .v2 .domainBtn:hover,
 .domainCta .Btn.ctaBtn:hover,
 .couponForm > button:hover {
-	background: #365272;
+	background-color: darkblue;
 }
 
 .homeBtn a.btnTwo:hover,
