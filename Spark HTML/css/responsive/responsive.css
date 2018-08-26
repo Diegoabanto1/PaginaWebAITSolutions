@@ -145,7 +145,7 @@ px      68    160    252    344    436    528    620    712    */
 		content: '';
 		width: 100%;
 		height: 100%;
-		background: #288feb;
+		background: black;
 		z-index: -1;
 		top: 0;
 		left: 0;

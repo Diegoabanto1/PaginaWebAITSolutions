@@ -110,7 +110,7 @@ body {
 	font-size: 15px;
 	line-height: 20px;
 	color: #738191;
-    background-color:azure
+    background-color:white
 }
 
 .floatleft {
@@ -442,7 +442,7 @@ header .topInfo li.clientAreaLi span {
 }
 
 header .headerTopArea {
-	border-bottom: 1px solid #ebebeb
+	border-bottom: 1px solid #ebebeb;
 }
 
 .v2 header .headerTopArea {
@@ -463,6 +463,7 @@ header .logo img {
 header .headerBottomArea {
 	padding: 30px 0;
 	border-bottom: 1px solid #eaeaea;
+    background-color: white
 }
 
 header nav#navbar {
@@ -482,7 +483,7 @@ header nav#navbar ul > li {
 }
 
 header nav#navbar ul > li > a {
-	color: #9aadbf;
+	color: black;
 	display: inline-block;
 	font-size: 13px;
 	line-height: 37px;
@@ -824,7 +825,7 @@ header nav#navbar ul > li.dropdown-megamenu:hover::before {
 		z-index: 9
 	}
 	header nav#navbar {
-		background: #233141;
+		background: grey;
 		position: absolute;
 		right: 15px;
 		top: 67px;
