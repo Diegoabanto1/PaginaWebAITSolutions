@@ -1,0 +1,154 @@
+
+body{
+    background-image: url(../assets/fondo-body.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* Secciones del HTML */
+.header{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    background-color:white;
+    border-bottom: 0px  
+}
+
+#inspira{
+    margin-top: 50px
+}
+
+
+#footer{
+    background-color:rgb(29, 29, 29);
+    border-top: 2px solid lightskyblue;
+
+}
+
+/* Hace transparente el menu */
+.top-bar, .top-bar ul { 
+    background-color: transparent;
+}
+
+
+/* margen de seccion nosotros */
+#nosotros{
+background-color: transparent;
+}
+
+/* Imagen de fondo de quien somos */
+.section-nosotros{
+    background-color: rgba(240,237,236,0.7);
+}
+
+.section-nosotros2{
+    background-color: rgba(14, 13, 13, 0.7);
+}
+
+/* Imagen de fondo de Innovacion */
+.section-innova{
+    background-color: rgba(240,237,236,0.7);
+}
+
+
+/* Color de letra blanca */
+.white-text{
+    color: white;
+}
+
+.card{
+    -webkit-box-shadow: 10px 6px 75px -27px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 6px 75px -27px rgba(0,0,0,1);
+    box-shadow: 10px 6px 75px -27px rgba(0,0,0,1);
+    border-radius: 10px;
+    padding: 5px
+}
+
+/* Linea divisora de la Card de hace mas angosta */
+
+.card-divider{
+    padding: 1px;
+    background-color: gray
+}
+
+/* Disminucion de padding de header de card */
+.card-header {
+    padding: 5px;
+}
+
+/* iCONO DE LA CARD */
+.icon-card{
+    font-size: 60px;
+    vertical-align: middle;
+    color: white
+}
+
+/* barra de navegacion small */
+.barra-small ul{
+    background-color: lightblue;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.barra-small  ul li{
+    background-color: white;
+    font-size: 25px;
+} 
+
+.barra-small  {
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    padding-top: 0px;
+    margin-top: 20px
+}
+
+.tabs-content{
+    background-color: transparent;color: white;
+    border: 0px;
+    border-top: 1px solid white
+}
+.tabs{
+    background-color: transparent;
+    border: 0px
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true']
+{
+    background-color:transparent;
+    color:white;
+    border-bottom: 2px solid blue;
+    transition: width 2s, height 2s, transform 2s;
+    background-color: rgba(31, 29, 29, 0.74);
+   
+}
+
+.tabs-title > a:hover{
+    background-color: rgba(31, 29, 29, 0.74);
+    border-bottom: 2px solid blue;
+    
+}
+
+
+
+
+.parraf1{
+    font-size: 23px
+}
+
+
+
+
+/* Media panatalla mediana */
+@media print, screen and (min-width: 40em){
+   
+}
+
+
+/* Pantallas grandes */
+@media print, screen and (min-width: 64em){
+    
+}
