@@ -12,51 +12,73 @@
 </head>
 
 <body>
+    <!-- <header class="v-header row">
 
-    <header class="v-header row">
-        <div class="fullscreen-video-wrap">
-            <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
-            <!-- DO NOT USE THIS VIDEO, I JUST NEEDED A HOSTED VIDEO FOR THIS CODEPEN> USE THE ONE ABOVE -->
-            <video src="assets/video-inicio.mp4" autoplay="" loop="">
-            </video>
-        </div>
-        <div class="header-overlay"></div>
+
         <div class="header-content">
-            <section class="header" style="background-color:transparent">
-                <div class="row align-center ">
-                    <div class=" columns small-6 medium-2 small-offset-1 medium-offset-1 align-self-center large-2">
-                        <a href="#" class=""><img src="assets/AIT Logotipo.jpg" alt="" width="100%"></a>
-                    </div>
-                    <div class="show-for-medium columns small-5 medium-7 medium-offset-1 align-self-bottom large-5 large-offset-3" style="background-color:transparent">
-                        <div class="top-bar">
-                            <div class="top-bar-left">
-                                <ul class="menu">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="nosotros.html">Nosotros</a></li>
-                                    <li><a href="servicios.html">Servicios</a></li>
-                                    <li><a href="contacto.html">Contacto</a></li>
-                                </ul>
-                            </div>
-                        </div>
+
+        </div>
+    </header> -->
+
+
+    <header class="header" >
+        <div class="row align-center ">
+            <div class=" columns small-6 medium-2 small-offset-1 medium-offset-1 align-self-center large-2">
+                <a href="#" class=""><img src="assets/AIT Logotipo.jpg" alt="" width="100%"></a>
+            </div>
+            <div class="show-for-medium columns small-5 medium-7 medium-offset-1 align-self-bottom large-5 large-offset-3"
+                style="background-color:transparent">
+                <div class="top-bar">
+                    <div class="top-bar-left">
+                        <ul class="menu">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="servicios.html">Servicios</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class=" align-center barra-small show-for-small-only">
-                    <ul class=" text-center vertical menu accordion-menu show-for-small-only text-center"
-                        data-accordion-menu>
-                        <li>
-                            <a href="#">Ait Solutions</a>
-                            <ul class="menu vertical nested">
-                                <li><a href="index.html" class="fi-home"> &nbsp;Home</a></li>
-                                <li><a href="nosotros.html" class="fi-torso-female"> &nbsp; Nosotros</a></li>
-                                <li><a href="servicios.html" class="fi-lightbulb">&nbsp;Servicios</a></li>
-                                <li><a href="contacto.html" class="fi-trees">&nbsp;Contacto</a></li>
-                            </ul>
-                        </li>
+            </div>
+        </div>
+        <div class=" align-center barra-small show-for-small-only">
+            <ul class=" text-center vertical menu accordion-menu show-for-small-only text-center" data-accordion-menu>
+                <li>
+                    <a href="#">Ait Solutions</a>
+                    <ul class="menu vertical nested">
+                        <li><a href="index.html" class="fi-home"> &nbsp;Home</a></li>
+                        <li><a href="nosotros.html" class="fi-torso-female"> &nbsp; Nosotros</a></li>
+                        <li><a href="servicios.html" class="fi-lightbulb">&nbsp;Servicios</a></li>
+                        <li><a href="contacto.html" class="fi-trees">&nbsp;Contacto</a></li>
                     </ul>
-                </div>
-            </section>
+                </li>
+            </ul>
         </div>
     </header>
+
+    <section id="home">
+        <div class="hide-for-small-only">
+            <div class="header-content" style="position:absolute;z-index: 3;width: 100%">
+                <div class="row align-self-bottom">
+                    <div class="columns small-5">
+                        <p class="white-text">
+                            <h1 style="color:blue">Ait Solutions</h1>
+                            <h3 class="white-text">"Grandes ideas, grandes soluciones"</h3>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div style="z-index:2;">
+                <div class="fullscreen-video-wrap">
+                    <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
+                    <!-- DO NOT USE THIS VIDEO, I JUST NEEDED A HOSTED VIDEO FOR THIS CODEPEN> USE THE ONE ABOVE -->
+                    <video src="assets/video-inicio.mp4" autoplay="" loop="">
+                    </video>
+                </div>
+                <div class="header-overlay"></div>
+            </div>
+        </div>
+
+    </section>
 
     <section class="section section-a" id="nosotros">
         <div class="container">
@@ -88,8 +110,8 @@
                     <br>
                 </div>
             </div>
-            <div class="row align-center section-nosotros2 ">
-                <div class="columns medium-12">
+            <div class="row align-center section-nosotros2 " style="margin-top:2vh">
+                <div class="columns medium-12" style="padding-top:5vh">
                     <h2 class="text-center white-text">¿QUE NOS APACIONA?</h2>
                 </div>
                 <div class="columns medium-12 show-for-medium" style="margin-top: 40px">
@@ -235,7 +257,7 @@
         </div>
     </section>
 
-    <section class="section section-b">
+    <section class="section section-a" id="footer">
         <div class="container">
             <div class="row">
                 <div class="columns small-12 medium-3">
@@ -247,6 +269,11 @@
         </div>
     </section>
 
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
