@@ -30,7 +30,7 @@ body{
 }
 
 #footer{
-    background-color:rgb(29, 29, 29);
+    background-color:rgb(233, 227, 227);
     border-top: 2px solid lightskyblue;
 
 }
@@ -166,7 +166,13 @@ background-color: transparent;
     padding-top:30px
 }
 
+/* Media patalla pequeñas */
 
+@media screen and (max-width: 39.99875em){
+    .header{
+        position: unset;
+    }
+}
 
 /* Media panatalla mediana */
 @media print, screen and (min-width: 40em){
