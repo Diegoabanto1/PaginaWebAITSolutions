@@ -1,5 +1,10 @@
 $(document).foundation();
 
+$(document).ready(function(){
+  $('#ait-text').animate({
+    left:'200px'
+  })
+});
 
 //Hace smooth scroll hasta la seccion
 
@@ -16,3 +21,4 @@ $('header a[href^="#"]').on('click',function (e) {
    window.location.hash = target;
   });
 });
+

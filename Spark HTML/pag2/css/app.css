@@ -143,6 +143,28 @@ background-color: transparent;
 }
 
 
+.ait-text{
+   animation: mymove 1.5s ; 
+}
+
+.ait-text2{
+    animation: mymove2 2s ; 
+ }
+
+@keyframes mymove {
+    0%   {margin-left: 70vw;opacity: 0;}
+    100% {margin-left:0vw;opacity: 1;}
+}
+
+@keyframes mymove2 {
+    0%   {margin-left: 70vw;opacity: 0;}
+    100% {margin-left:0vw;opacity: 1;}
+}
+
+.section-servicios{
+    background-color: rgb(196, 191, 191);
+    padding-top:30px
+}
 
 
 
@@ -156,7 +178,6 @@ background-color: transparent;
 @media print, screen and (min-width: 64em){
     
 }
-
 
 
 
