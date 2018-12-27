@@ -24,7 +24,7 @@ body{
 
 #nosotros{
     padding-top:70px;
-    background-image: url(/pag2/assets/fondo-body.jpg);
+    background-image: url(../assets/fondo-body.jpg);
     background-size: cover;
     background-color: transparent;
 }
