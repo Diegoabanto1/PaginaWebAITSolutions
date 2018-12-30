@@ -48,7 +48,7 @@ background-color: transparent;
 
 /* Imagen de fondo de quien somos */
 .section-nosotros{
-    background-color: rgba(240,237,236,0.7);
+    background-color: rgba(214, 197, 191, 0.7);
 }
 
 .section-nosotros2{
@@ -162,9 +162,13 @@ background-color: transparent;
 }
 
 .section-servicios{
-    background-color: rgb(121, 145, 26);
-    padding-top:30px
+    background-color: rgba(121, 145, 26, 0.377);
+    padding-top:30px;
+    background-image: url(../assets/Slider/fondy-home.jpg);
+    background-size: cover
 }
+
+
 .pq-elergirnos{
     padding: 15px;margin-bottom: 40px;
             box-shadow: 0 5px 5px -5px #333;
@@ -172,7 +176,7 @@ background-color: transparent;
 
 .serv-di-web{
     border:1px solid rgb(255, 255, 255);
-    background-color:rgb(201, 207, 107);
+    background-color:rgb(211, 212, 194);
     padding: 5px;
 }
 
