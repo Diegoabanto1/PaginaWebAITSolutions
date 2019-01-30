@@ -9,7 +9,7 @@ $(document).ready(function(){
 //Hace smooth scroll hasta la seccion
 
 $('header a[href^="#"]').on('click',function (e) {
-  // e.preventDefault();
+   e.preventDefault();
   
   altoMenu=$("#header").height()
   var target = this.hash,
